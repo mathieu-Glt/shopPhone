@@ -1,0 +1,281 @@
+.body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+   'sans-serif';
+  -webkit-font-soothing: antialised;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(228, 208, 208);
+}
+
+.carousel {
+  z-index: 0;
+  height: 10%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  z-index: 2;
+  position: fixed;
+}
+.espace_header {
+  height: 30vh;
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+h1.span {
+  background: white;
+}
+
+.App {
+  text-align: center;
+}
+.bienvenudo1 {
+  font-weight: 200;
+  color: white;
+  font-family: cursive;
+  font-size: 80%;
+}
+.banner {
+  background-color: rgb(0, 123, 255);
+  width: 800px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+.iphone__images {
+  width: 80%;
+  background-color: #61dafb;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.iphone__images img{
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 50px;
+}
+
+
+.para__iphone {
+  //margin-left: 200px;
+  text-align: center;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+
+}
+
+
+
+.bienvenudo {
+color: black;
+font-family: cursive;
+font-size: 180%;
+}
+
+.test {
+  width: 100%;
+  height: 30vh;
+}
+
+.test1 {
+  width: 100%;
+  height: 10vh;
+}
+
+.test2 {
+  width: 100%;
+  height: 10vh;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
+
+.App-header {
+  background-color: #f5f5f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(247, 246, 246);
+}
+
+.body_home {
+  border-radius: 20px 0;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bloc-card {
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: #bbbbcc;
+
+}
+.bloc-card:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition-duration: 1s;
+
+}
+
+.container-products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: 20px auto;
+  background: linear-gradient(rgb(183, 0, 255), rgb(55, 0, 255));
+  border-radius: 10px;
+
+}
+
+.img-product {
+  height: 180px;
+  width: 100%;
+  border-radius: 20px 20px;
+}
+
+.img-accessoires {
+  height: 180px;
+  width: 100%;
+  border-radius: 20px 20px;
+}
+
+.text_info {
+  text-decoration: none;
+  margin: 1%;
+  margin-top: 20px;
+  color: black;
+}
+
+.image_price {
+  width: 100%;
+}
+
+
+div.info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1.title::before {
+  content: "-";
+  vertical-align: middle;
+}
+
+h1.title::after {
+  content: "-";
+  vertical-align: middle;
+}
+
+h1.title {
+  background-color: red;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1.title1 {
+  background-color: rgb(255, 234, 0);
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+h1.title3 {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 80%;
+  color: white;
+  font-weight: bold;
+}
+.banner {
+  width: 100%;
+}
+
+.text_intro2 {
+  width: 100%;
+}
+
+
+
+.like-container {
+  height: 10px;
+  width: 10px;
+
+}
+
+.text_intro {
+  border: 3px solid white;
+  margin-top: 10px;
+  width: 90%;
+  background-color: rgb(15, 89, 139);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.text_intro2 {
+  border: 3px solid white;
+  margin-top: 80px;
+  height: 120px;
+  width: 90%;
+  background-color: rgb(115, 0, 255);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+.text_intro3 {
+  border: 3px solid white;
+  margin-top: 120px;
+  height: 120px;
+  width: 100%;
+  background-color: rgb(255, 0, 200);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+
+}
+

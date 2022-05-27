@@ -1,0 +1,117 @@
+.nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 12px 4%;
+    font-size: 0.9rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(2, 3, 50, 0.105));
+    transition: background-color .3s ease-in-out;
+    a {
+        color: rgb(250, 250, 250);
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10%;
+
+    }
+    &--black {
+         background-color: rgb(0, 0, 0);
+         padding: 1%;
+         width: 100%;
+    }
+    .nav__logo1 {
+        align-items: flex-end;
+        width: 30%;
+    }
+
+
+    .nav__logo {
+        align-items: flex-end;
+        width: 30%;
+    }
+    .nav__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;    
+    }
+    .nav-linka {
+        display: flex;
+        flex-direction: row;
+        width: 10%; 
+        opacity: 1;
+        transition: all 2s ease-in-out;
+    
+    }
+
+
+    .nav-transparent_link {
+        display: flex;
+        flex-direction: row;
+        width: 20%; 
+        transition: all 2s ease;
+        opacity: 0;
+    }
+    &__burger { 
+         cursor:pointer;
+         color: red;
+         margin-right: 1rem;
+         @media screen and (min-width:768px) {
+             display:none
+         }
+    }
+    &__links {
+        margin-left: 20px;
+        .nav__link {
+            text-decoration: none;
+            padding: 5px 10px;
+            display: flex;
+            flex-direction: raw;
+        }
+        @media screen and (max-width:767px) {
+            margin-left: 0;
+            visibility: hidden;
+            position: absolute;
+            top: 110%;
+            right: 0;
+            .show & {
+                display: flex;
+                flex-direction: column;
+                visibility: visible;
+                width: 100%;
+                height: 60vh;
+                top: 20px;
+                background-color: black;
+            }
+            .nav__link {
+                display: flex;
+                flex-direction: column;
+                font-size: 1rem;
+                margin-top: 1%;
+            }
+            .nav__linka {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+
+            }
+            &--black {
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(0, 0, 0);
+                padding: 1%;
+                width: 100%;
+           }
+       
+
+            
+        }
+
+    }
+
+
+}
