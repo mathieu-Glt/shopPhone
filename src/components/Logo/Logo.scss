@@ -1,9 +1,26 @@
 .App-logo {
     pointer-events: none;
     border-radius: 5%;
-    margin: 0 auto;
-    width: 30%;
+    margin-top: 20px;
+    margin-left:  200px;
+    width: 40%;
     box-shadow: -0.8em 0.4em .1em rgb(0, 0, 0), -1em 0.3em .4em rgb(0, 0, 0);
-    justify-items: end;
   
   }
+
+  @media screen and (max-width:800px) {
+    .App-logo {
+      position: absolute;
+      pointer-events: none;
+      border-radius: 5%;
+      margin-left:  -40px;
+      width: 25%;
+
+      top: 130px;
+      box-shadow: -0.8em 0.4em .1em rgb(0, 0, 0), -1em 0.3em .4em rgb(0, 0, 0);
+    
+    }
+  
+  }
+  
+  

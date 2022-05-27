@@ -47,10 +47,13 @@ function Nav() {
         document.addEventListener("scroll", displayLinks);
     })
 
-    console.log(toggleLink)
 
     const handleClick = () => {
         toggleMenu ? setToggleMenu(false) : setToggleMenu(true);
+    }
+
+    const navResponse = () => {
+        window.scrollY > 10 ? setToggleMenu(false) : setToggleMenu(true);
     }
 
 
@@ -64,7 +67,7 @@ function Nav() {
 
             <nav className="nav__links">
                 <div className={`${toggleLink ? 'nav__linka' : 'nav-transparent_link'} 
-                ${toggleMenu && "show"}`}>
+                `}>
                     <Link to="/home">HOME</Link>
                     <Link to="/openbox">OPENBOX</Link>
                     <Link to="/accessoire">ACCESSORIOS</Link>
