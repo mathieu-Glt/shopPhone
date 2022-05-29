@@ -20,7 +20,7 @@ function Home() {
                 </div>
             </div>
             <div >
-                <h1 className="title">Cellulars</h1>
+                <h1 className="title">Celulares</h1>
             </div>
 
             <div className="container-products">
@@ -58,7 +58,7 @@ function Home() {
 
                 <div className="iphone__images">
                     <img src={process.env.PUBLIC_URL + `/images/coquesiphone.jpg`} alt="coques_de_iphones" />
-                    <p className="para__iphone">Ven y descubre todos nuestros accesorios <br></br>en el menú de navegación link accesorios !!</p>
+                    <p className="para__iphone1">Ven y descubre todos nuestros accesorios <br></br>en el menú de navegación link accesorios !!</p>
                 </div>
 
 

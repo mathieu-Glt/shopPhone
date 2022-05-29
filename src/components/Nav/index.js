@@ -66,15 +66,12 @@ function Nav() {
             </button>
 
             <nav className="nav__links">
-                <div className={`${toggleLink ? 'nav__linka' : 'nav-transparent_link'} 
-                `}>
+                <div className='nav__linka' 
+                >
                     <Link to="/home">HOME</Link>
                     <Link to="/openbox">OPENBOX</Link>
                     <Link to="/accessoire">ACCESSORIOS</Link>
                     <Link to="/contact">CONTACTO</Link>
-                </div>
-                <div className={`${toggleLink ? 'nav__logo' : 'nav__logo1'}`}>
-                    <Logo />
                 </div>
 
 

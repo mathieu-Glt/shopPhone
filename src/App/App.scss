@@ -40,7 +40,7 @@ h1.span {
   font-weight: 200;
   color: white;
   font-family: cursive;
-  font-size: 80%;
+  font-size: 25px;
 }
 .banner {
   background-color: rgb(0, 123, 255);
@@ -152,6 +152,10 @@ button {
 
 }
 
+.iphone11 span{
+  color: white
+}
+
 .container-products {
   display: flex;
   flex-direction: row;
@@ -159,10 +163,41 @@ button {
   justify-content: space-evenly;
   width: 60%;
   margin: 20px auto;
-  background: linear-gradient(rgb(183, 0, 255), rgb(55, 0, 255));
-  border-radius: 10px;
+  background: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 191));
+  border-radius: 20px;
 
 }
+.text_intro h2 {
+  font-weight: bold;
+}
+.text_intro2 h2 {
+  font-weight: bold;
+
+}
+div.text_intro3 {
+  background: #1384fd;
+}
+
+.text_intro3 h2 {
+  font-weight: bold;
+}
+
+.text_intro3 li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+
+.text_intro li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.text_intro2 li {
+  list-style-type: none;
+  font-size: 25px;
+}
+
 
 .img-product {
   height: 180px;
@@ -192,6 +227,9 @@ div.info {
   display: flex;
   flex-direction: column;
 
+}
+.para__iphone1 {
+  font-size: 30px;
 }
 
 h1.title::before {
@@ -265,6 +303,13 @@ h1.title3 {
   font-style: italic;
 
 }
+.banner > h1 {
+  font-family: cursive;
+}
+
+.iphone11 {
+  color: white;
+background: black;}
 
 .text_intro3 {
   border: 3px solid white;
@@ -278,4 +323,41 @@ h1.title3 {
   font-style: italic;
 
 }
+@media screen and (max-width:800px) {
+  .text_intro2 li{
+    font-size: 15px;
+  }
+  .text_intro2 h2{
+    font-size: 15px;
+  }
+  .text_intro2 {
+    text-align: center;
+  }
+  .image_price {
+    width: 100%;
+  }
+  .para__iphone {
+    font-size: 40px;
+
+  }
+  .para__iphone1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .text_intro3 li{
+    font-size: 15px;
+
+  }
+
+  .text_intro3 h2{
+    font-size: 18px;
+
+  }
+
+
+}
+
+
+
 

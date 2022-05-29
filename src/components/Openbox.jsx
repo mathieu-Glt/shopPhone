@@ -10,18 +10,18 @@ function Openbox() {
         <div className="image_price">
             <img className="img-fluid" src={process.env.PUBLIC_URL + `/images/Openbox.jpeg`} alt=""  />
         </div>
-        <h1 className="title3">Cellulars</h1>
+        <h1 className="title3">Celulares</h1>
         <div className="text_intro">
-            <h2><span>+593 CELL PHONE</span> te ofrece al comprar un producto ... </h2>
+            <h2><span>+593 CELL PHONE</span> te ofrece al comprar un producto :</h2>
             <ul>
-                <li>Un regalo diferente adicional cada mes por tu compra.</li>
-                <li>Entrega inmediata.</li>
-                <li>Garantia open box.</li>
-                <li>Envios seguros a domicilio.</li>
+                <li>Un regalo diferente adicional cada mes por tu compra</li>
+                <li>Entrega inmediata</li>
+                <li>Garantia open box</li>
+                <li>Envios seguros a domicilio</li>
             </ul>
         </div>
         <div className="text_intro2">
-            <h2>Por la compra en effectivo o transferencia </h2>
+            <h2>Por la compra en effectivo o transferencia</h2>
             <ul>
                 <li>recibe grandes promociones</li>
             </ul>

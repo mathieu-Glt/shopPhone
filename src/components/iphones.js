@@ -19,14 +19,14 @@ const iphones = [
         title: "iPhone XR",
         price: "395 $",
         memory: "64 Gb",
-        img: "iphone_8",
+        img: "iphoneXR_64",
         certificado: "Original de APPLE"
     },
     {
         title: "iPhone XR",
         price: "460 $",
         memory: "128 Gb",
-        img: "iphone_8Plus",
+        img: "iphoneXR_128",
         certificado: "Original de APPLE"
     },
     {
@@ -169,6 +169,23 @@ const iphones = [
         certificado: "Original de APPLE"
 
     },
+    {
+        title: "iPhone 13",
+        price: "990 $",
+        memory: "64 Gb",
+        img: "iphone-13",
+        certificado: "Original de APPLE"
+
+    },
+    {
+        title: "iPhone 13",
+        price: "1127 $",
+        memory: "128 Gb",
+        img: "iphone-13_128",
+        certificado: "Original de APPLE"
+
+    },
+
 
 
 

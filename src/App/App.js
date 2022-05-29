@@ -15,6 +15,7 @@ import Home from '../components/Home';
 import Accessoire from '../components/Accessoire';
 import Openbox from '../components/Openbox';
 import Contact from '../components/Contact';
+import Logo from '../components/Logo/Logo';
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
         <Header />
         <div className='espace_header'></div>
         <BootstrapCarousel />
+        <div>
+          <Logo/>
+        </div>
+
         <p className='bienvenudo'>
           Celulares Open Box de iPhone al mejor precio del mercado.
           Somos tienda física!!!

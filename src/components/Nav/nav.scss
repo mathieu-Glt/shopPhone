@@ -35,7 +35,8 @@
     .nav__links {
         display: flex;
         flex-direction: row;
-        width: 100%; 
+        width: 100%;
+        width: 20vh; 
     }
 
 
@@ -75,7 +76,7 @@
                 visibility: visible;
                 width: 100%;
                 margin-left: 20px;
-                height: 30vh;
+                height: 25vh;
                 top: 20px;
                 background-color: black;
             }

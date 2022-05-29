@@ -3,6 +3,7 @@ import './footer.scss';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import AudiotrackIcon from '@mui/icons-material/Audiotrack';
 
 
 
@@ -20,6 +21,10 @@ function Footer() {
                     <a href='/' className='footer__social'>
                        <WhatsAppIcon />
                     </a>
+                    <a href='/' className='footer__social'>
+                       <AudiotrackIcon />
+                    </a>
+
 
                 </div>
                 <ul className='footer__links'>

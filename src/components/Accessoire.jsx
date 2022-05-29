@@ -11,9 +11,9 @@ function Accessoires() {
             <div className="text_intro">
             <h2><span>+593 CELL PHONE</span> te ofrece en todos sus equipo :</h2>                
             <ul>
-                    <li>Cable.</li>
-                    <li>Cargador.</li>
-                    <li>Mica.</li>
+                    <li>Cable</li>
+                    <li>Cargador</li>
+                    <li>Mica</li>
                 </ul>
             </div>
             <div className="text_intro3">

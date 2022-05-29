@@ -17,10 +17,14 @@ class BootstrapCarousel extends React.Component {
                             <Carousel.Item>
                                     <img
                                         className="d-block vh-30 w-100 img-fluid "
-                                        src={process.env.PUBLIC_URL + `/images/iphone8.jpg`}
+                                        src={process.env.PUBLIC_URL + `/image/iphone.jpeg`}
                                         alt="First slide Responsive image"
                                         
                                     />
+                                    <Carousel.Caption>
+                                        <h3 className='iphone11'><span>iP</span>hone 11 Pro Max</h3>
+                                    </Carousel.Caption>
+
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
@@ -46,13 +50,6 @@ class BootstrapCarousel extends React.Component {
                                         <h3>iPhone 12</h3>
                                     </Carousel.Caption>
 
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <img
-                                        className="d-block w-100 img-fluid "
-                                        src={process.env.PUBLIC_URL + `/images/iPhone12pub.jpg`}
-                                        alt="Third slide Responsive image"
-                                    />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
