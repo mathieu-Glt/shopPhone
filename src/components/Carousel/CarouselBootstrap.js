@@ -17,7 +17,7 @@ class BootstrapCarousel extends React.Component {
                             <Carousel.Item>
                                     <img
                                         className="d-block vh-30 w-100 img-fluid "
-                                        src={process.env.PUBLIC_URL + `/image/iphone.jpeg`}
+                                        src={process.env.PUBLIC_URL + `/images/iphone.jpeg`}
                                         alt="First slide Responsive image"
                                         
                                     />

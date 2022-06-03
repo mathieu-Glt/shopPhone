@@ -168,7 +168,13 @@ button {
 
 }
 
-.intro {
+.text_intro4 {
+  color: black;
+  font-size: 20px;
+}
+
+div.intro {
+  margin-top: 30px;
   color: black;
   font-size: 10px;
   text-align: center;
@@ -178,11 +184,28 @@ button {
 .paragraphe {
   background: white;
   color: black;
+  font-size: 20px;
+
 }
+
+h2.paragraphe {
+  background: white;
+  color: black;
+  font-size: 20px;
+
+}
+
+.precio {
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .text_intro h2 {
   background-color: white;
   font-weight: bold;
   color: black;
+  font-size: 20px;
 }
 
 div.text_intro {
@@ -198,17 +221,32 @@ div.text_intro2 {
   color: black;
 
 }
+
+.title2 {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+
+}
 div.text_intro3 {
+  margin-top: 30px;
   background: white;
   color: black;
-  border: solid 3px red;
+  border: solid 0 20px red;
 }
 
 .text_intro3 h2 {
   font-weight: bold;
-  font-size: 10px;
+  font-size: 20px;
   
 }
+
+.text_intro3 p {
+  font-size: 20px;
+  
+}
+
 
 .text_intro3 li {
   list-style-type: none;

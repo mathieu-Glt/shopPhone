@@ -10,9 +10,13 @@ function Openbox() {
         <div className="image_price">
             <img className="img-fluid" src={process.env.PUBLIC_URL + `/images/Openbox.jpeg`} alt=""  />
         </div>
+        <div className="precio">
+        <p>Consúltanos los precios de iPhone Open Box si tienes negocio, al por mayor.</p>
+
+        </div>
         <h1 className="title3">Celulares</h1>
         <div className="text_intro">
-            <h2><span>+593 CELL PHONE</span> te ofrece al comprar un producto :</h2>
+            <h2 className="paragraphe"><span>+593 CELL PHONE</span> te ofrece al comprar un producto :</h2>
                 <p className="paragraphe">
                 Un regalo diferente adicional cada mes por tu compra
                 Entrega inmediata
@@ -21,7 +25,7 @@ function Openbox() {
                 </p>
         </div>
         <div className="text_intro2">
-            <h2 >Por la compra en effectivo o transferencia</h2>
+            <h2 className="paragraphe">Por la compra en effectivo o transferencia</h2>
            
                 <p className="paragraphe">recibe grandes promociones</p>
             

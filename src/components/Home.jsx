@@ -8,7 +8,7 @@ function Home() {
             <div className="banner">
                 <h1>Los productos de <span>+593 CELL PHONE </span></h1>
                 <h1 className="bienvenudo1">
-                    ?Sabes que es un producto open box?
+                    Sabes que es un producto open box?
                     Es un producto de marca 100% original, cuya caja o empaque fue abierto,
                     entre las causas principales: porque el embalaje pudo sufrir cierto daño
                     estético o para colocarles como muestras en tiendas de
