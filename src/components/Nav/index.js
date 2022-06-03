@@ -70,7 +70,7 @@ function Nav() {
                 >
                     <Link to="/home">HOME</Link>
                     <Link to="/openbox">OPENBOX</Link>
-                    <Link to="/accessoire">ACCESSORIOS</Link>
+                    <Link to="/accessoire">ACCESORIOS</Link>
                     <Link to="/contact">CONTACTO</Link>
                 </div>
 

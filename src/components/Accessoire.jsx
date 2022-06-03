@@ -10,17 +10,17 @@ function Accessoires() {
             <h1 className="title3">Accessorios</h1>
             <div className="text_intro">
             <h2><span>+593 CELL PHONE</span> te ofrece en todos sus equipo :</h2>                
-            <ul>
+            <ul className="intro">
                     <li>Cable</li>
                     <li>Cargador</li>
                     <li>Mica</li>
-                </ul>
+            </ul>
             </div>
             <div className="text_intro3">
                 <h2>Por la compra en effectivo o transferencia </h2>
-                <ul>
-                    <li>recibe grandes promociones</li>
-                </ul>
+                
+                    <p>recibe grandes promociones</p>
+                
             </div>
     
             
