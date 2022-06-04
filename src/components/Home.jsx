@@ -6,14 +6,14 @@ function Home() {
     return (
         <div className="body_home">
             <div className="banner">
-                <h1>Los productos de <span>+593 CELL PHONE </span></h1>
-                <h1 className="bienvenudo1">
+                <h2>Los productos de +593 CELL PHONE </h2>
+                <p className="normal">
                     Sabes que es un producto open box?
                     Es un producto de marca 100% original, cuya caja o empaque fue abierto,
                     entre las causas principales: porque el embalaje pudo sufrir cierto daño
                     estético o para colocarles como muestras en tiendas de
                     Apple y pueden observarse mínimos signos de uso.
-                </h1>
+                </p>
                 <div className="iphone__images">
                     <img src={process.env.PUBLIC_URL + `/images/iphones.jpg`} alt="iphones" />
                     <p className="para__iphone">Mejor precio del Ecuador<br></br>Garantizado !!</p>
@@ -27,8 +27,7 @@ function Home() {
                 {inventory.map((item) => (
                     <Link className="text_info"
                         to={{
-                            pathname: `/produits/${item.title.replace(/\s+/g, "").
-                                trim()}`,
+                            pathname: "#",
 
                         }}
                         key={item.id}

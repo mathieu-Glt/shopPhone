@@ -11,16 +11,10 @@ const accessoires = [
 
     },
     {
-        title: "Protectores",
-        img: "image3",
-
-    },
-
-    {
         title: "selfie",
         img: "image4",
 
-    },
+    }
     {
         title: "soporte de teléfono",
         img: "image5",
@@ -42,7 +36,7 @@ const accessoires = [
 
     },
     {
-        title: "Protector de pantalla, celular y display",
+        title: "Protector de pantalla",
         img: "image9",
 
     }

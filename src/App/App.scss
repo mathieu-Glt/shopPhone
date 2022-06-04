@@ -118,6 +118,23 @@ button {
   font-size: calc(10px + 2vmin);
   color: rgb(247, 246, 246);
 }
+.banner h2 {
+  color: white;
+  font-size: 20 px;
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  text-align: justify;
+  margin: 5%;
+}
+
+.normal1 {
+  font-family: sans-serif;
+}
 
 .body_home {
   border-radius: 20px 0;
@@ -193,8 +210,17 @@ div.intro {
   background: white;
   color: black;
   font-size: 20px;
-
 }
+
+
+.paragraphe1 {
+  background: white;
+  color: black;
+  font-size: 15px;
+  padding: 0;
+  border-radius: 20px;
+}
+
 
 h2.paragraphe {
   background: white;
@@ -224,6 +250,8 @@ div.text_intro {
 div.text_intro2 {
   margin-top: 20px;
   background: white;
+  padding: 0;
+  align-items: center;
 }
 .text_intro2 h2 {
   background: white;
