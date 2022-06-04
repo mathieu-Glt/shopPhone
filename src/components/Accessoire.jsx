@@ -18,7 +18,7 @@ function Accessoires() {
             <div className="text_intro">
                 <h2>Por la compra en effectivo o transferencia </h2>
                 
-                    <p>recibe grandes promociones</p>
+                    <p className="black">recibe grandes promociones</p>
                 
             </div>
     
