@@ -14,7 +14,7 @@ const accessoires = [
         title: "selfie",
         img: "image4",
 
-    }
+    },
     {
         title: "soporte de teléfono",
         img: "image5",

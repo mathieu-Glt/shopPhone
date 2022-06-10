@@ -25,7 +25,7 @@ function Openbox() {
                 </p>
         </div>
         <div className="text_intro2">
-            <h2 className="paragraphe">Por la compra en effectivo o transferencia</h2>
+            <h2 className="paragraphe">Por la compra en efectivo o transferencia</h2>
            <p className="paragraphe1">recibe grandes promociones</p>
         </div>
 
