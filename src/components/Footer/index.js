@@ -18,7 +18,7 @@ function Footer() {
                     <a href='/' className='footer__social'>
                         <InstagramIcon />
                     </a>
-                    <a href='https://api.whatsapp.com/send?phone=593981528567' className='footer__social'>
+                    <a href='https://api.whatsapp.com/send?phone=593981528567' target="_blank" className='footer__social'>
                        <WhatsAppIcon />
                     </a>
                     <a href='/' className='footer__social'>
