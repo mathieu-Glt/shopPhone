@@ -18,15 +18,14 @@ function Openbox() {
         <div className="text_intro">
             <h2 className="paragraphe"><span>+593 CELL PHONE</span> te ofrece al comprar un producto :</h2>
                 <p className="paragraphe">
-                Un regalo diferente adicional cada mes por tu compra
-                Entrega inmediata
-                Garantia open box
-                Envios seguros a domicilio
+                Un regalo diferente adicional cada mes por tu compra.
+                Entrega inmediata.
+                Garantia open box.
+                Envios seguros a domicilio.
                 </p>
         </div>
-        <div className="text_intro2">
-            <h2 className="paragraphe">Por la compra en efectivo o transferencia</h2>
-           <p className="paragraphe1">recibe grandes promociones</p>
+        <div className="text_intro">
+            <h2 className="paragraphe">Por la compra en efectivo o transferencia recibe grandes promociones</h2>
         </div>
 
         

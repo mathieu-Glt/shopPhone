@@ -12,11 +12,11 @@ function Home() {
                     Es un producto de marca 100% original, cuya caja o empaque fue abierto,
                     entre las causas principales: porque el embalaje pudo sufrir cierto daño
                     estético o para colocarles como muestras en tiendas de
-                    Apple y pueden observarse mínimos signos de uso.
+                    Apple. Pueden observarse mínimos signos de uso.
                 </p>
                 <div className="iphone__images">
                     <img src={process.env.PUBLIC_URL + `/images/iphones.jpg`} alt="iphones" />
-                    <p className="para__iphone">Mejor precio del Ecuador<br></br>Garantizado !!</p>
+                    <p className="para__iphone">Mejor precio del Ecuador garantizado !!</p>
                 </div>
             </div>
             <div >

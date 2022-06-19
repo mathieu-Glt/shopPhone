@@ -26,7 +26,7 @@ function App() {
         <div className='espace_header'></div>
         <BootstrapCarousel />
         <div>
-          <Logo/>
+          <Logo />
         </div>
 
         <p className='bienvenudo'>
@@ -34,7 +34,7 @@ function App() {
           Somos tienda física!!!
         </p>
         <Routes>
-          <Route path="/home"  element={<Home /> } />
+          <Route path="/home" element={<Home />} />
           <Route path="/accessoire" element={<Accessoire />} />
           <Route path="/openbox" element={<Openbox />} />
           <Route path="/contact" element={<Contact />} />
